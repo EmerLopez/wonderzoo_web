@@ -188,13 +188,17 @@
     <Content Include="images\acercade.jpg" />
     <Content Include="images\anfibios.png" />
     <Content Include="images\caballo.jpg" />
+    <Content Include="images\cocodrilo.jpg" />
     <Content Include="images\domesticos.png" />
     <Content Include="images\elefante.jpg" />
     <Content Include="images\foca.jpg" />
     <Content Include="images\omnivoros.png" />
     <Content Include="images\oviparos.png" />
+    <Content Include="images\pato.jpg" />
+    <Content Include="images\pinguino.jpg" />
     <Content Include="images\vertebrados.png" />
     <Content Include="images\viviparos.png" />
+    <Content Include="oviparos.aspx" />
     <Content Include="Picsart_22-10-17_22-01-31-319.png" />
     <Content Include="viviparos.aspx" />
     <Content Include="wz.ico" />
@@ -369,6 +373,13 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="oviparos.aspx.cs">
+      <DependentUpon>oviparos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="oviparos.aspx.designer.cs">
+      <DependentUpon>oviparos.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="principal.Master.cs">
       <DependentUpon>principal.Master</DependentUpon>

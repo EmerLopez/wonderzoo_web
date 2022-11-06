@@ -185,13 +185,18 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Account\Web.config" />
+    <Content Include="images\acercade.jpg" />
     <Content Include="images\anfibios.png" />
+    <Content Include="images\caballo.jpg" />
     <Content Include="images\domesticos.png" />
+    <Content Include="images\elefante.jpg" />
+    <Content Include="images\foca.jpg" />
     <Content Include="images\omnivoros.png" />
     <Content Include="images\oviparos.png" />
     <Content Include="images\vertebrados.png" />
     <Content Include="images\viviparos.png" />
     <Content Include="Picsart_22-10-17_22-01-31-319.png" />
+    <Content Include="viviparos.aspx" />
     <Content Include="wz.ico" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="images\icono.ico" />
@@ -386,6 +391,13 @@
     </Compile>
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="viviparos.aspx.cs">
+      <DependentUpon>viviparos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="viviparos.aspx.designer.cs">
+      <DependentUpon>viviparos.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

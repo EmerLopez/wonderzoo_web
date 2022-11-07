@@ -37,10 +37,10 @@
         }
     </style>
 </head>
-<body>
+<body style="background-color: #74F882">
     <form id="form1" runat="server">
         <div class="nuevoEstilo1" style="font-weight: 700; text-align: center">
-            <a href="default"> <input type="button" style="float: left; height: 35px; width: 64px;" value="Volver"/> </a>VIVIPAROS<br />
+            <a href="default"> <input type="button" style="border-style: outset; float: left; height: 35px; width: 64px; background-color: #CCF85D;" value="Volver"/> </a>VIVIPAROS<br />
             <br />
             <img alt="" class="auto-style1" style="float: left"; src="images/caballo.jpg" />
             <img alt="" class="auto-style2" style="float: initial"; src="images/elefante.jpg" />

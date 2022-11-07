@@ -40,7 +40,7 @@
 
          <div class="col-md-4" style="background-position: center; background-size: cover; left: 0px; top: 0px; background-image: url('images/domesticos.png')">
             <h2>
-                <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301948" style="border-style: outset; background-color: #CCF85D">Domesticos &raquo;</a></h2>
+                <a class="btn btn-default" href="domesticos" style="border-style: outset; background-color: #CCF85D">Domesticos &raquo;</a></h2>
              <p>&nbsp;</p>
             <p>
                 &nbsp;</p>

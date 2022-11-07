@@ -58,7 +58,8 @@
                         <li><a runat="server" href="~/About">Acerca de</a></li>
                         <li><a runat="server" href="~/Contact">Terminos</a></li>
                         <li><a runat="server" href="~/Contact">UGB verde</a></li>
-                        <li><a runat="server" href="~/Contact">Ayuda</a></li>
+                        <li><a runat="server" href="~/ayuda">Ayuda</a></li>
+                        <li><a runat="server" href="~/usuarios">Usuarios</a></li>
                     </ul>
                     <asp:LoginView runat="server" ViewStateMode="Disabled">
                         <AnonymousTemplate>

@@ -202,8 +202,11 @@
     <Content Include="images\viviparos.png" />
     <Content Include="oviparos.aspx" />
     <Content Include="images\Picsart_22-10-17_22-01-31-319.png" />
+    <Content Include="usuarios.aspx" />
     <Content Include="vertebrados.aspx" />
     <Content Include="viviparos.aspx" />
+    <Content Include="domesticos.aspx" />
+    <Content Include="ayuda.aspx" />
     <Content Include="wz.ico" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="images\icono.ico" />
@@ -399,6 +402,13 @@
       <DependentUpon>Site.Mobile.Master</DependentUpon>
     </Compile>
     <Compile Include="Startup.cs" />
+    <Compile Include="usuarios.aspx.cs">
+      <DependentUpon>usuarios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usuarios.aspx.designer.cs">
+      <DependentUpon>usuarios.aspx</DependentUpon>
+    </Compile>
     <Compile Include="vertebrados.aspx.cs">
       <DependentUpon>vertebrados.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -419,6 +429,20 @@
     </Compile>
     <Compile Include="viviparos.aspx.designer.cs">
       <DependentUpon>viviparos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="domesticos.aspx.cs">
+      <DependentUpon>domesticos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="domesticos.aspx.designer.cs">
+      <DependentUpon>domesticos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ayuda.aspx.cs">
+      <DependentUpon>ayuda.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ayuda.aspx.designer.cs">
+      <DependentUpon>ayuda.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

@@ -202,6 +202,7 @@
     <Content Include="images\viviparos.png" />
     <Content Include="oviparos.aspx" />
     <Content Include="images\Picsart_22-10-17_22-01-31-319.png" />
+    <Content Include="terminos.aspx" />
     <Content Include="usuarios.aspx" />
     <Content Include="vertebrados.aspx" />
     <Content Include="viviparos.aspx" />
@@ -402,6 +403,13 @@
       <DependentUpon>Site.Mobile.Master</DependentUpon>
     </Compile>
     <Compile Include="Startup.cs" />
+    <Compile Include="terminos.aspx.cs">
+      <DependentUpon>terminos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="terminos.aspx.designer.cs">
+      <DependentUpon>terminos.aspx</DependentUpon>
+    </Compile>
     <Compile Include="usuarios.aspx.cs">
       <DependentUpon>usuarios.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

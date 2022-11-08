@@ -166,6 +166,7 @@
     <Content Include="Account\ResetPasswordConfirmation.aspx" />
     <Content Include="Account\TwoFactorAuthenticationSignIn.aspx" />
     <Content Include="Account\VerifyPhoneNumber.aspx" />
+    <Content Include="anfibios.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -190,6 +191,7 @@
     <Content Include="images\caballito.jpg" />
     <Content Include="images\caballo.jpg" />
     <Content Include="images\canguro.jpg" />
+    <Content Include="images\caracol.jpg" />
     <Content Include="images\cocodrilo.jpg" />
     <Content Include="images\domesticos.png" />
     <Content Include="images\elefante.jpg" />
@@ -201,7 +203,9 @@
     <Content Include="images\oviparos.png" />
     <Content Include="images\pato.jpg" />
     <Content Include="images\pinguino.jpg" />
+    <Content Include="images\rana.jpg" />
     <Content Include="images\register.png" />
+    <Content Include="images\tortuga.jpg" />
     <Content Include="images\vertebrados.png" />
     <Content Include="images\viviparos.png" />
     <Content Include="oviparos.aspx" />
@@ -354,6 +358,13 @@
     </Compile>
     <Compile Include="Account\VerifyPhoneNumber.aspx.designer.cs">
       <DependentUpon>VerifyPhoneNumber.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="anfibios.aspx.cs">
+      <DependentUpon>anfibios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="anfibios.aspx.designer.cs">
+      <DependentUpon>anfibios.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="About.aspx.cs">

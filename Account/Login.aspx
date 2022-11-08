@@ -1,10 +1,23 @@
-﻿<%@ Page Title="Iniciar sesión" Language="C#" MasterPageFile="~/principal.Master" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="wonderzoo_web.Account.Login" Async="true" %>
+﻿<%@ Page Title="Iniciar sesión en WonderZoo" Language="C#" MasterPageFile="~/principal.Master" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="wonderzoo_web.Account.Login" Async="true" %>
 
 <%@ Register Src="~/Account/OpenAuthProviders.ascx" TagPrefix="uc" TagName="OpenAuthProviders" %>
 
 <asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="MainContent">
     <h2><%: Title %>.</h2>
-
+      <style type="text/css">
+          .auto-style1 {
+            width: 388px;
+            height: 250px;
+            margin-left: 30px;
+              float: left;
+          </style>
+    <div class="nuevoEstilo1" style="font-weight: 700; text-align: center">
+            
+            <br />
+            <img alt="" class="auto-style1" ; src="../images/loginimg.png" />
+            
+            <br />
+        </div>
     <div class="row">
         <div class="col-md-8">
             <section id="loginForm">
@@ -19,7 +32,7 @@
                     <div class="form-group">
                         <asp:Label runat="server" AssociatedControlID="Email" CssClass="col-md-2 control-label">Correo electrónico</asp:Label>
                         <div class="col-md-10">
-                            <asp:TextBox runat="server" ID="Email" CssClass="form-control" TextMode="Email" />
+                            <asp:TextBox runat="server" ID="Email" CssClass="form-control" TextMode="Email" BackColor="#FFFF99" />
                             <asp:RequiredFieldValidator runat="server" ControlToValidate="Email"
                                 CssClass="text-danger" ErrorMessage="El campo de correo electrónico es obligatorio." />
                         </div>
@@ -27,7 +40,7 @@
                     <div class="form-group">
                         <asp:Label runat="server" AssociatedControlID="Password" CssClass="col-md-2 control-label">Contraseña</asp:Label>
                         <div class="col-md-10">
-                            <asp:TextBox runat="server" ID="Password" TextMode="Password" CssClass="form-control" />
+                            <asp:TextBox runat="server" ID="Password" TextMode="Password" CssClass="form-control" BackColor="#FFFF99" />
                             <asp:RequiredFieldValidator runat="server" ControlToValidate="Password" CssClass="text-danger" ErrorMessage="El campo de contraseña es obligatorio." />
                         </div>
                     </div>
@@ -41,7 +54,7 @@
                     </div>
                     <div class="form-group">
                         <div class="col-md-offset-2 col-md-10">
-                            <asp:Button runat="server" OnClick="LogIn" Text="Iniciar sesión" CssClass="btn btn-default" />
+                            <asp:Button runat="server" OnClick="LogIn" Text="Iniciar sesión" CssClass="btn btn-default" BackColor="#CCF85D" BorderStyle="Outset" />
                         </div>
                     </div>
                 </div>

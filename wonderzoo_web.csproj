@@ -194,10 +194,14 @@
     <Content Include="images\domesticos.png" />
     <Content Include="images\elefante.jpg" />
     <Content Include="images\foca.jpg" />
+    <Content Include="images\imglogin.png" />
+    <Content Include="images\imgregistrarse.png" />
+    <Content Include="images\loginimg.png" />
     <Content Include="images\omnivoros.png" />
     <Content Include="images\oviparos.png" />
     <Content Include="images\pato.jpg" />
     <Content Include="images\pinguino.jpg" />
+    <Content Include="images\register.png" />
     <Content Include="images\vertebrados.png" />
     <Content Include="images\viviparos.png" />
     <Content Include="oviparos.aspx" />

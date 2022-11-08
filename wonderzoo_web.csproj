@@ -192,14 +192,17 @@
     <Content Include="images\caballo.jpg" />
     <Content Include="images\canguro.jpg" />
     <Content Include="images\caracol.jpg" />
+    <Content Include="images\cerdo.jpg" />
     <Content Include="images\cocodrilo.jpg" />
     <Content Include="images\domesticos.png" />
     <Content Include="images\elefante.jpg" />
     <Content Include="images\foca.jpg" />
+    <Content Include="images\gorila.jpg" />
     <Content Include="images\imglogin.png" />
     <Content Include="images\imgregistrarse.png" />
     <Content Include="images\loginimg.png" />
     <Content Include="images\omnivoros.png" />
+    <Content Include="images\oso.jpg" />
     <Content Include="images\oviparos.png" />
     <Content Include="images\pato.jpg" />
     <Content Include="images\pinguino.jpg" />
@@ -208,8 +211,10 @@
     <Content Include="images\tortuga.jpg" />
     <Content Include="images\vertebrados.png" />
     <Content Include="images\viviparos.png" />
+    <Content Include="omnivoros.aspx" />
     <Content Include="oviparos.aspx" />
     <Content Include="images\Picsart_22-10-17_22-01-31-319.png" />
+    <Content Include="Reportar.aspx" />
     <Content Include="terminos.aspx" />
     <Content Include="usuarios.aspx" />
     <Content Include="vertebrados.aspx" />
@@ -395,6 +400,13 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="omnivoros.aspx.cs">
+      <DependentUpon>omnivoros.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="omnivoros.aspx.designer.cs">
+      <DependentUpon>omnivoros.aspx</DependentUpon>
+    </Compile>
     <Compile Include="oviparos.aspx.cs">
       <DependentUpon>oviparos.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -409,6 +421,13 @@
     </Compile>
     <Compile Include="principal.Master.designer.cs">
       <DependentUpon>principal.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Reportar.aspx.cs">
+      <DependentUpon>Reportar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportar.aspx.designer.cs">
+      <DependentUpon>Reportar.aspx</DependentUpon>
     </Compile>
     <Compile Include="Site.Mobile.Master.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>

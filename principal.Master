@@ -57,6 +57,7 @@
                         <li><a runat="server" href="~/">Inicio</a></li>
                         <li><a runat="server" href="~/About">Acerca de</a></li>
                         <li><a runat="server" href="~/terminos">Terminos</a></li>
+                        <li><a runat="server" href="~/reportar">Reportar</a></li>
                         <li><a runat="server" href="~/Contact">UGB verde</a></li>
                         <li><a runat="server" href="~/ayuda">Ayuda</a></li>
                         <li><a runat="server" href="~/usuarios">Usuarios</a></li>

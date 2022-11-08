@@ -49,7 +49,7 @@
         </div>
        <div class="col-md-4" style=" background-position: center; background-size: cover; left: 0px; top: 0px; background-image: url('images/omnivoros.png')">
             <h2>
-                <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301949" style="background-color: #CCF85D; border-style: outset">Omnivoros &raquo;</a></h2>
+                <a class="btn btn-default" href="omnivoros.aspx"style="background-color: #CCF85D; border-style: outset">Omnivoros &raquo;</a></h2>
             <p>&nbsp;</p>
             <p>
                 &nbsp;</p>
